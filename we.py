@@ -7,7 +7,8 @@ import time
 def fetch_temperature():
     lat = 19.88
     lon = 73.78
-    api_key = "e0f01d11f67f49fbb7e82cff04a64263"
+    ##Go to weatherbit website you will get the 🗝️ 
+    api_key = ""
     api = Api(api_key)
    # api.get_forecast(lat=lat, lon=lon, days=10, tp='daily').get()
     data = api.get_forecast(lat=lat, lon=lon, hours=240, tp='hourly').get()
