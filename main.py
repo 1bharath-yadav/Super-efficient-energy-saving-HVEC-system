@@ -23,7 +23,7 @@ model = YOLO('yolov8x.pt')
 present_people = 0
 
 
-camera_ip = "rtsp://bharath:08@10.10.2.9:1935"
+camera_ip = "ip address"
 logger.info("Starting the live stream..")
 cap = cv2.VideoCapture(camera_ip)
 time.sleep(1.0)
